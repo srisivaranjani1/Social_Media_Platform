@@ -1,0 +1,9 @@
+# Global ignores
+*.env
+*.key
+*.pem
+node_modules/
+
+# Folder-specific
+server/.env
+client/.env

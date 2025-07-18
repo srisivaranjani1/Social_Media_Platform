@@ -1,0 +1,29 @@
+.users-page {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f3f3f3;
+  padding: 1rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+}
+
+.add-friend-btn {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}

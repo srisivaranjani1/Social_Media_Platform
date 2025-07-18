@@ -1,0 +1,22 @@
+.messages-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f4f6fa;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+.messages-page h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.messages-page p {
+  font-size: 1.1rem;
+  color: #666;
+}

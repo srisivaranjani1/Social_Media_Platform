@@ -1,0 +1,105 @@
+/* Full page layout with black border */
+.profile-wrapper {
+  border: 2px solid black;
+  height: 100vh;
+  width: 100%;
+  max-width: 420px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header */
+.header {
+  background-color: #1976d2;
+  color: white;
+  padding: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/* Main profile content */
+.profile-details {
+  flex: 1;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Auto-generated avatar image */
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid #ccc;
+}
+
+/* User name and email */
+.user-name {
+  margin: 4px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.user-email {
+  margin: 0;
+  color: gray;
+  font-size: 14px;
+}
+
+/* User bio */
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin-top: 12px;
+  font-style: italic;
+}
+
+/* Tabs section */
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 24px;
+}
+
+.tab {
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  padding-bottom: 4px;
+  border-bottom: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+
+.tab.active {
+  border-bottom: 2px solid #1976d2;
+  color: #1976d2;
+}
+
+.tab:hover {
+  color: #1976d2;
+}
+
+/* Edit Profile Button */
+.edit-button {
+  margin: 30px auto;
+  padding: 10px 24px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #125ea9;
+}
